@@ -22,7 +22,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
-  title: 'Gutter Cleaning & Repair Services Antioch CA | Clearview Gutter Cleaning',
+  title: 'Gutter Cleaning & Repair Services Antioch CA',
   description:
     'Comprehensive gutter care services in Antioch, CA. From hand cleaning and downspout flushing to gutter repair and leaf guard installation. Call +19255062219 for free estimates.',
   keywords: [

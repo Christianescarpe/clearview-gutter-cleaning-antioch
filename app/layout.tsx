@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   metadataBase: new URL('https://clearviewguttercleaningantioch.com'),
   title: {
-    default: 'Gutter Cleaning Antioch CA | Clearview Gutter Cleaning Antioch',
-    template: '%s | Clearview Gutter Cleaning Antioch',
+    default: 'Gutter Cleaning Antioch CA',
+    template: '%s',
   },
   description:
     'Trusted gutter cleaning Antioch CA homeowners rely on. Free quotes, insured local crews, and same-week scheduling. Call Clearview Gutter Cleaning Antioch today at +19255062219.',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Clearview Gutter Cleaning Antioch',
-    title: 'Gutter Cleaning Antioch CA | Clearview Gutter Cleaning Antioch',
+    title: 'Gutter Cleaning Antioch CA',
     description:
       'Trusted gutter cleaning Antioch CA homeowners rely on. Free quotes, insured local crews, and same-week scheduling. Call +19255062219.',
   },

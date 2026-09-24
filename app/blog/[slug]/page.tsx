@@ -46,15 +46,17 @@ export async function generateMetadata({ params }: BlogPostProps): Promise<Metad
     ? post.keywords.split(';').map((k) => k.trim())
     : [];
 
+  const cleanTitle = (post.seoTitle || post.title || '').split('|')[0].trim();
+
   return {
-    title: post.seoTitle,
+    title: cleanTitle,
     description: post.metaDescription,
     keywords: keywordsArray,
     alternates: {
       canonical: `https://clearviewguttercleaningantioch.com/blog/${post.slug}`,
     },
     openGraph: {
-      title: post.seoTitle,
+      title: cleanTitle,
       description: post.metaDescription,
       url: `https://clearviewguttercleaningantioch.com/blog/${post.slug}`,
       siteName: 'Clearview Gutter Cleaning Antioch',

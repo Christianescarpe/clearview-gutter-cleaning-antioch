@@ -8,7 +8,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import CTASection from '@/components/CTASection';
 
 export const metadata: Metadata = {
-  title: 'Antioch Gutter Cleaning Blog & Homeowner Drainage Guides | Clearview',
+  title: 'Antioch Gutter Cleaning Blog & Homeowner Drainage Guides',
   description:
     'Expert advice, seasonal maintenance schedules, and gutter care tips for Antioch and East Contra Costa County homeowners. Call +19255062219 for service.',
   keywords: [

@@ -190,15 +190,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ? page.keywords.split(';').map((k) => k.trim())
     : [];
 
+  const cleanTitle = (page.seoTitle || page.title || '').split('|')[0].trim();
+
   return {
-    title: page.seoTitle,
+    title: cleanTitle,
     description: page.metaDescription,
     keywords: keywordsArray,
     alternates: {
       canonical: `https://clearviewguttercleaningantioch.com/${page.slug}`,
     },
     openGraph: {
-      title: page.seoTitle,
+      title: cleanTitle,
       description: page.metaDescription,
       url: `https://clearviewguttercleaningantioch.com/${page.slug}`,
       siteName: 'Clearview Gutter Cleaning Antioch',
